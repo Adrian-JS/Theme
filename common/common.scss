@@ -73,12 +73,12 @@ $max-width: 600px;
     z-index: 2;
     order: 2;
     right: 0;
-    background: blue;
+    background: transparent;
     .discourse-no-touch & {
       &:hover {
-        background: blue;
+        background: transparent;
         .d-icon {
-          color: $primary-high;
+          color: $aqua;
         }
       }
     }
